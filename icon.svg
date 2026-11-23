@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="로보컴 CRM">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a65ff"/>
+      <stop offset="1" stop-color="#1c37ab"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="113" fill="url(#g)"/>
+  <g fill="#ffffff">
+    <rect x="251" y="148" width="10" height="60" rx="5"/>
+    <circle cx="256" cy="140" r="15.5"/>
+    <rect x="133" y="205" width="246" height="195" rx="48"/>
+  </g>
+  <g fill="#2f5bff">
+    <circle cx="206" cy="283" r="20.5"/>
+    <circle cx="306" cy="283" r="20.5"/>
+    <rect x="229" y="345" width="54" height="11" rx="5.5"/>
+  </g>
+</svg>
