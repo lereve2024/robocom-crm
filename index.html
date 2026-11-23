@@ -765,6 +765,8 @@ input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;appearan
 .api-msg.wait{color:var(--muted)}
 .api-box{display:flex;flex-direction:column;gap:10px}
 .api-box .step{font-size:11.5px;color:var(--muted);line-height:1.55;background:#f7f9fd;border:1px solid var(--line);border-radius:12px;padding:10px 12px}
+/* 서버 연결 모달은 잠금 화면(z-index:100)보다 위에 떠야 합니다 */
+#setupModal{z-index:120}
 </style>
 </head>
 <body>
